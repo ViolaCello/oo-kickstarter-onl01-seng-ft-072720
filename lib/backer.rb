@@ -10,8 +10,8 @@ class Backer
   def back_project(project)
     binding.pry 
     @backed_projects.push(project)
- project.backers.map do |i|
-   if i == self
+ a = project.backers.include?(self)
+   if a != true then project.backers
   end 
   
 end
