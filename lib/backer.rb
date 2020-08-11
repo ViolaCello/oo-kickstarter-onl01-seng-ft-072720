@@ -8,7 +8,7 @@ class Backer
   end
   
   def back_project(project)
-    binding.pry 
+   # binding.pry 
     @backed_projects.push(project)
  a = project.backers.include?(self)
    if a != true then project.add_backer(self)
