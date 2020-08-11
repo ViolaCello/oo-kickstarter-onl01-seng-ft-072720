@@ -8,7 +8,7 @@ class Project
   
   def add_backer(backer)
     @backers.push(backer)
- a = backer.add_project(self)
+
   end
   
 end
