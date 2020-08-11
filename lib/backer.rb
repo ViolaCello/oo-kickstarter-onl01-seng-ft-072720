@@ -10,7 +10,8 @@ class Backer
   def back_project(project)
     binding.pry 
     @backed_projects.push(project)
- project.backers.find_all {|backer| backer.
+ project.backers.map do |i|
+   if i == self
   end 
   
 end
