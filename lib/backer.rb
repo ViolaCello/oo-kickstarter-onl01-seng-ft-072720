@@ -10,7 +10,7 @@ class Backer
   def back_project(project)
     binding.pry 
     @backed_projects.push(project)
- 
+ project.backers.find_all {|backer| backer.
   end 
   
 end
