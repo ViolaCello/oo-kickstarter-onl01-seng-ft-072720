@@ -8,9 +8,9 @@ class Backer
   end
   
   def back_project(project)
-    #binding.pry 
+    binding.pry 
     @backed_projects.push(project)
- if project.backers
+ 
   end 
   
 end
