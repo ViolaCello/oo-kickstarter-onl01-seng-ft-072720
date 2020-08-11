@@ -6,6 +6,6 @@ class Project
     @title = title
   end
   
-  def 
+  def add_backer()
   
 end
