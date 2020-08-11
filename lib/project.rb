@@ -6,4 +6,6 @@ class Project
     @title = title
   end
   
+  def 
+  
 end
