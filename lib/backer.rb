@@ -7,10 +7,6 @@ class Backer
     @name = name
   end
   
-  def back_project(project)
-   # binding.pry 
-    @backed_projects.push(project)
-    Project.add_backer(self.name)
-  end 
+
   
 end
